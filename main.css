@@ -17,9 +17,7 @@ a {
   cursor: pointer;
 }
 
-body {
- 
-}
+
 
 .phone-container {
   position: relative;
@@ -40,7 +38,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
-  padding: 20px;
+  padding: 15px;
 }
 
 .phone-title {
@@ -51,7 +49,7 @@ body {
 }
 
 .phone-content a {
-  padding: 15px 0;
+  padding: 10px 0;
 }
 .phone-content a:hover {
   transform: scale(1.4);

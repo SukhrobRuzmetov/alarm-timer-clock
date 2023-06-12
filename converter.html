@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/converter.css">
+    <title>Converter</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Latin to Cyrillic Converter</h1>
+        <label for="input-text">Enter Latin Text:</label>
+        <textarea id="input-text" placeholder="Enter Latin text here..." oninput="convertToCyrillic()"></textarea>
+    
+        <!-- <button onclick="convertToCyrillic()">Convert to Cyrillic</button> -->
+        <button onclick="swapText()">Swap Text</button>
+        <button onclick="modifyCase('uppercase')">Uppercase</button>
+        <button onclick="modifyCase('lowercase')">Lowercase</button>
+        <button onclick="modifyCase('capitalize')">Capitalize</button>
+    
+        <div class="output">
+          <label for="output-text">Converted Text:</label>
+          <textarea id="output-text" placeholder="Converted text will appear here..." readonly></textarea>
+          <button class="copy-button" onclick="copyToClipboard()">Copy</button>
+          <button><a href="./index.html">🔙 Home</a></button>
+        </div>
+      </div>
+
+    <script src="./js/converter.js"></script>
+</body>
+</html>
